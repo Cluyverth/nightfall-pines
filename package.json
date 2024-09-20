@@ -1,0 +1,49 @@
+{
+  "name": "nightfall-pines",
+  "displayName": "Nightfall Pines",
+  "description": "An elegant dark theme for Visual Studio Code.",
+  "version": "0.0.1",
+  "author": "Cluyverth W. <contato@cluyverth.com>",
+  "publisher": "cluyverth",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cluyverth/nightfall-pines.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cluyverth/nightfall-pines/issues"
+  },
+  "galleryBanner": {
+    "color": "#0e0e0e",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "src/logo.png",
+  "keywords": [
+    "dark",
+    "dark theme",
+    "black",
+    "black theme",
+    "Nightfall",
+    "Nightfall theme",
+    "Nightfall Pines",
+    "Nightfall Pines theme",
+    "high contrast",
+    "elegant",
+    "elegant theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nightfall Pines",
+        "uiTheme": "vs-dark",
+        "path": "./nightfall-pines/nightfall-pines-color-theme.json"
+      }
+    ]
+  }
+}
+            

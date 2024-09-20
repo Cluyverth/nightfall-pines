@@ -128,3 +128,23 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Node_modules
+node_modules/
+
+# Files
+*.vsix
+
+# Others files
+.DS_Store
+
+# VSCode
+.vscode/
+.vscodeignore
+
+# .vsix
+vsix/
+
+# docker
+docker/
+docker/docker-compose.yml

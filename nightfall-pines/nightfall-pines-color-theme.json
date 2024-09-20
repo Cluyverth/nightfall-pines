@@ -1,0 +1,59 @@
+{
+    "name": "Nightfall Pines",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#0e0e0e",
+        "statusBar.background": "#0e0e0e",
+    },
+    "tokenColors":[
+        {
+            "name": "Tags",
+            "scope": "entity.name.tag",
+            "settings": {
+                "foreground": "#E95678E6"
+            }
+        },
+        {
+            "name": "Tag attributes",
+            "scope": "entity.other.attribute-name",
+            "settings": { 
+                "foreground": "#46ACAD", 
+                "fontStyle": "bold" 
+            }
+        },
+        {
+            "name": "CSS ID selectors",
+            "scope": "entity.other.attribute-name.id",
+            "settings": { 
+                "foreground": "#25B0BCE6" 
+            }
+        },      
+        {
+            "name": "Pseudo CSS",
+            "scope": [
+              "entity.other.attribute-name.pseudo-element",
+              "entity.other.attribute-name.pseudo-class"
+            ],
+            "settings": { 
+                "foreground": "#FAB795E6" 
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+              "string.quoted",
+              "string.template",
+              "constant",
+              "string.quoted.double",
+              "string.quoted.single",
+              "string.quoted.double.ts",
+              "constant.numeric.decimal",
+              "constant.language.null"
+            ],
+            "settings": { 
+                "foreground": "#eaac8b", 
+                "fontStyle": "italic" 
+            }
+        }  
+    ]
+}
