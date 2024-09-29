@@ -292,7 +292,8 @@
             "scope": [
                 "support.variable.magic",
                 "entity.name.type.class.kotlin",
-                "storage.type.generic.java"
+                "storage.type.generic.java",
+                "variable.parameter.function.language.python"
             ],
             "settings": {
                 "foreground": "#66B2FF" 

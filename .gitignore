@@ -144,6 +144,7 @@ node_modules/
 
 # .vsix
 vsix/
+.vsix
 
 # docker
 docker/
