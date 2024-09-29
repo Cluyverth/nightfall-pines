@@ -2,7 +2,7 @@
   "name": "nightfall-pines",
   "displayName": "Nightfall Pines",
   "description": "An elegant dark theme for Visual Studio Code.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Cluyverth W. <contato@cluyverth.com>",
   "publisher": "cluyverth",
   "engines": {

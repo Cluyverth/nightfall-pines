@@ -2,6 +2,6 @@ services:
   nightfall-pines:
     image: node:18
     volumes:
-      - .:/app
+      - ../:/app  
     working_dir: /app
-    tty: true
+    tty: true     
