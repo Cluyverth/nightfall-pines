@@ -39,7 +39,7 @@ This theme currently supports the following languages:
 3. Click "Install" to add the theme to your Visual Studio Code.
 
 ### Option 2:
-Manually download the .vsix file from the .vsix folder and install it in Visual Studio Code.
+Manually download the .vsix file from the release and install it in Visual Studio Code.
 
 ## Usage
 
