@@ -4,7 +4,7 @@
         "colors": {
             // Editor
             "editor.background": "#0E0E0E",
-            "editor.foreground": "#FFFFFF",
+            "editor.foreground": "#e0e0e0",
             "editor.lineHighlightBackground": "#202020",
             "editor.selectionBackground": "#63668C6E",
             "editor.inactiveSelectionBackground": "#352A3B",
@@ -97,8 +97,6 @@
             "terminal.ansiYellow": "#FAB795",
             "terminal.selectionBackground": "#6C6F934D",
             
-            
-
             // Git Decorations
             "gitDecoration.addedResourceForeground": "#27D797B3",
             "gitDecoration.modifiedResourceForeground": "#FAB38E",
@@ -174,7 +172,7 @@
             "name": "Mustard",
             "scope":[
               "support.type.property-name.json.comments",
-              "support.type.property-name.json"
+              "support.type.property-name.json",
             ],
             "settings": {
                 "foreground": "#b4a363" 
@@ -183,20 +181,14 @@
           {
             "name": "White",
             "scope":[
-              "string.quoted.double.json.comments",
-              "string.quoted.single.json.comments",
-              "string.interpolated.json.comments",
-              "string.quoted.double.json",
-              "string.quoted.single.json",
+              "text.html.derivative",
+              "support.constant.property-value.css",
+              "constant.other.color.rgb-value.hex.css",
+              "support.constant.font-name.css",
+              "punctuation.definition.keyword.kotlin",
               "punctuation.section.block.begin.kotlin",
               "punctuation.section.block.end.kotlin",
-              "punctuation.definition.keyword.kotlin",
-              "storage.modifier.import.java",
-              "constant.other.placeholder",
-              "entity.name.type.class.kotlin",
-              "keyword.control.ternary.java",
-              "meta.template.expression.kotlin",
-              "variable.string-escape.kotlin"
+              "punctuation.accessor.dot.kotlin",
             ],
             "settings": {
                 "foreground": "#D5D8DA" 
@@ -205,10 +197,10 @@
           {
             "name": "Gold",
             "scope": [
-                "keyword.other.import",
-                "keyword.control.import",
-                "keyword.package",
-                "keyword.soft.kotlin"
+              "keyword.control.import.python",
+              "keyword.other.special-method.ruby",
+              "keyword.other.import.java",
+              "keyword.other.import.kotlin",
             ],
             "settings": {
                 "foreground": "#FFA726" 
@@ -217,37 +209,46 @@
           {
             "name": "Purple",
             "scope": [
-                "meta.function-call.generic",
-                "entity.string.template.element",
-                "storage.type.object.array"
+              "variable.other.readwrite.instance.ruby",
+              "entity.other.attribute-name.id.css",
+              "storage.type.object.array.java",
+              "meta.attribute.python"
             ],
             "settings": {
-                "foreground": "#b877f5" 
+                "foreground": "#b06ed6cc" 
             }
           },
           {
             "name": "Red",
             "scope": [
-              "support.function.builtin",
-              "support.function.kotlin",
-              "support.function.magic",
-              "support.class.kotlin",
-              "storage.type.primitive",
-              "support.type.python",
-              "storage.type.string.go",
-              "storage.type.numeric.go",
-              "entity.name.type.kotlin",
-              "storage.type.object.array.java",
-              "storage.type.java"
+               "keyword.control.flow.python",
+               "entity.name.type.class.python",
+               "support.function.builtin.python",
+               "support.class.ruby",
+               "entity.name.tag.html",
+               "entity.name.tag.css",
+               "storage.type.generic.java",
+               "storage.type.primitive.java",
+               "storage.type.java",
+               "support.function.kotlin",
+               "support.class.kotlin",
+               "entity.name.type.class.python",
             ],
-            "settings": { "foreground": "#FD4970" }
+            "settings": { "foreground": "#e94468" }
           },
           {
             "name": "Yellow",
             "scope": [
-              "entity.name.function",
-              "entity.name.type",
-              "entity.name.class"       
+               "entity.other.attribute-name.html",
+               "support.function.magic.python",
+               "entity.name.function.python",
+               "entity.name.function.ruby",
+               "entity.name.function.java",
+               "entity.name.function.kotlin",
+               "entity.name.class.kotlin",
+               "support.function.kernel.ruby",
+               "entity.name.type.class.java",
+               "entity.name.type.class.ruby",      
             ],
             "settings": { "foreground": "#ffecb2" }
           },
@@ -259,44 +260,63 @@
                 "string.interpolated"
             ],
             "settings": {
-                "foreground": "#FFA07A" 
+                "foreground": "#f8bba3" 
             }
           },         
           {
             "name": "Green",
             "scope": [
-                "keyword.control",
-                "keyword.control.flow.python",
-                "punctuation.separator.annotation.result",
-                "keyword.other.kotlin",
-                "storage.modifier",
-                "storage.type.function",
-                "keyword.function.go",
-                "keyword.type.go",
-                "keyword.struct.go",
-                "variable.language.special.self",
-                "variable.language.this",
-                "keyword.operator.kotlin",
-                "variable.parameter.function.language.special.self.python",
-                "keyword.hard.fun.kotlin",
-                "keyword.hard.class.kotlin",
-                "punctuation.definition.template-expression.begin",
-                "punctuation.definition.template-expression.end"
+               "keyword.other.unit.em.css",
+               "constant.numeric.css",
+               "storage.type.class.python",
+               "storage.type.function.python",
+               "variable.language.special.self.python",
+               "keyword.control.class.ruby",
+               "keyword.control.def.ruby",
+               "keyword.control.ruby",
+               "keyword.control.start-block.ruby",
+               "keyword.control.new.java",
+               "storage.modifier.java",
+               "keyword.control.new.java",
+               "keyword.other.kotlin",
+               "storage.modifier.kotlin",
+               "entity.name.type.class.kotlin",
+               "keyword.control.kotlin",
+               "keyword.operator.kotlin",
+               "storage.type.kotlin",
             ],
             "settings": {
                 "foreground": "#27D797B3" 
             }
           },
           {
-            "name": "Blue",
-            "scope": [
-                "support.variable.magic",
-                "entity.name.type.class.kotlin",
-                "storage.type.generic.java",
-                "variable.parameter.function.language.python"
+            "name": "test color",
+            "scope":[
+              "meta.function-call.generic.python",
             ],
             "settings": {
-                "foreground": "#66B2FF" 
+                "foreground": "#f18452" 
+            }
+          },
+          {
+            "name": "Blue",
+            "scope": [
+              "support.type.property-name.css",
+              "variable.parameter.function.language.special.self.python",
+              "variable.parameter.function.language.python",
+              "keyword.other.special-method.ruby",
+              "variable.other.constant.ruby",
+              "punctuation.section.embedded",
+              "variable.parameter.function.ruby",
+              "variable.parameter.java",
+              "variable.other.definition.java",
+              "variable.parameter.function.kotlin",
+              "constant.other.symbol.ruby",
+              "storage.type.generic.java",
+              "entity.string.template.element.kotlin"
+            ],
+            "settings": {
+                "foreground": "#8ec8e7" 
             }
           },            
         ]
